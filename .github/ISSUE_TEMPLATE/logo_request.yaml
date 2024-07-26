@@ -26,9 +26,9 @@ body:
   - type: input
     id: logo
     attributes:
-      label: Logo
+      label: Logo URL
       description: URL to find the SVG file of your logo
-      placeholder: SDT
+      placeholder: https://raw.githubusercontent.com/stake-dao/assets/main/assets/1/0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f.svg
     validations:
       required: true
   - type: dropdown
